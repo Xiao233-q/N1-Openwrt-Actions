@@ -167,6 +167,3 @@ jobs:
       with:
         name: docker-n1
         path: n1/opt/imgs
-    
-    - name: WeChat notification
-      run: curl https://sc.ftqq.com/${{ secrets.ServerChan }}.send?text=${{ env.FILE_NAME }}编译完成
